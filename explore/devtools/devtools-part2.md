@@ -1,0 +1,2 @@
+1. The bug was that the code is parsing the inputs as strings when it should be numbers. Instead of arithmatic, the program performs string concatenation, which is not what the desired outcome is.
+2. I'd cast the strings num1 and num2 to ints before the math operations. The correct implementation of this fix is in expand/screenshots/fix.png
